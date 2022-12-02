@@ -5,4 +5,4 @@ def retirement_calc(name, age, retirement_age=67):
         return f"{name} will be old enough to retire in {years_to_go} years."
     else:
         years_to_go = abs(years_to_go)
-        return f"{name} will be old enough to retire in {years_to_go} years." 
+        return f"{name} was old enough to retire {years_to_go} year(s) ago."
